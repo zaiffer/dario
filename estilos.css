@@ -3,11 +3,11 @@ selectores
 declaraciones
 propopiedades
 valores*/
-
+ 
 
 .header{
   margin: 0px;
-  background-color: #6A040F;
+  background-color: #264653;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -43,7 +43,7 @@ valores*/
 }
 
 .link:hover{
-  background: #510513;
+  background: #2A9D8F;
 }
 
 .header ol{
@@ -51,8 +51,8 @@ valores*/
 }
 
 body{
-  font-family:'Source Sans Pro', sans-serif;
-  color:black;
+  font-family: 'Roboto Mono', monospace;
+  color:white;
   margin: 0px;
 }
 .link{
@@ -98,7 +98,7 @@ ul{
 
 .dog-fine{
   margin: 0px;
-  background: #BA7632;
+  background: #E76F51;
   align-items: center;
   justify-content: space-evenly;
   display: flex;
@@ -106,7 +106,7 @@ ul{
 }
 .contenedorDeHero{
   display: flex;
-  max-height: 375px;
+  max-height: 450px;
   height: 100%;
 }
 .fine-image{
@@ -117,10 +117,11 @@ ul{
 
 .dog-title{
   text-transform: uppercase;
-  font-family:'Source Sans Pro', sans-serif;
-  font-size: 27px;
-  color: #E63946;
-  font-style: italic;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+  font-style: BOLD;
 }
 
 
@@ -141,7 +142,9 @@ ul{
   /* background-size: 500px 300px; */
   /* background-repeat: no-repeat; */
   /* background-position-x:right ; */
-  color: #e63946;
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+  font-weight: bold;
+  color: white;
   display: flex;
   margin: 0;
   align-items: center;
@@ -152,7 +155,7 @@ ul{
   overflow: hidden;
   padding: 2em 0;
   margin: 0 auto;
-  background: #BA7632;
+  background: #2A9D8F;
 }
 
 .hero-image{
@@ -277,7 +280,7 @@ background-color: #F9C74F;
   /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
-  background-color: #F9C74F;
+  background-color: #E76F51;
 }
 
 
@@ -289,7 +292,7 @@ background-color: #F9C74F;
 .gato-title{
   font-family: 'Chilanka', cursive;
   text-align: center;
-  background: #F9C74F;
+  background: #E76F51;
   margin: 0;
   padding: 15px 0;
   color: white;
@@ -297,10 +300,9 @@ background-color: #F9C74F;
 }
 
 .gato-image{
-  max-width: 300px;
-  width: 70%;
-  max-height: 250px;
-  height: 100%;
+  padding: 10px;
+  width: 180px;
+  height: 300px;
 }
 
 
@@ -309,12 +311,12 @@ background-color: #F9C74F;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #9A031E;
+  background-color: #F9C74F;
 }
 .perro-title{
   text-align: center;
   margin-top: 0;
-  background-color: #9A031E;
+  background-color: #F9C74F;
   margin: 0;
   font-family: 'Chilanka', cursive;
   color: white;
@@ -422,7 +424,7 @@ figure{
 
 .container-1{
   align-items: inherit;
-  justify-content: inherit;
+  justify-content: center;
   display: inherit;
   margin: 0 auto;
   width: 1000px;
@@ -452,7 +454,7 @@ figure{
 }
 
 .fabio, .rocio, .tailer{
-  background: #1D3557;
+  background: #2A9D8F;
   color: white;
   height: auto;
   font-size: 20px;
